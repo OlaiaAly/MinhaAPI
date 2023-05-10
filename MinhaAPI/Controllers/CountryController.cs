@@ -16,7 +16,7 @@ namespace MinhaAPI.Controllers
     {
         
 
-        [HttpGet("get-book/name/{name}")]
+        [HttpGet("get-country/name/{name}")]
         public IActionResult GetCountryByName(string name)
         {
 
@@ -25,7 +25,7 @@ namespace MinhaAPI.Controllers
             return Ok(country);
         }
 
-        [HttpGet("get-book/capital/{capital}")]
+        [HttpGet("get-country/capital/{capital}")]
         public IActionResult GetCountryByCapital(string capital)
         {
 
