@@ -7,27 +7,8 @@ namespace MinhaAPI.Data.Models
     {
         public string common { get; set; }
         public string official { get; set; }
-        public Nativename nativename { get; set; }
     }
 
-    public class Nativename
-    {
-        public Fra fra { get; set; }
-        public Run run { get; set; }
-    }
-
-
-    public class Run
-    {
-        public string official { get; set; }
-        public string common { get; set; }
-    }
-
-    public class Fra
-    {
-        public string official { get; set; }
-        public string common { get; set; }
-    }
 
     public class Flags
     {
